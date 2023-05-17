@@ -1,0 +1,25 @@
+body {
+background-color: aquamarine;
+}
+header {
+    background-color: aqua;
+    grid-column: 2/-1;
+    text-align: center;
+
+}
+main {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr ;
+    gap: 20px;
+    grid-template-rows: 200px 1fr;
+}
+p{
+    grid-column: 2/4;
+    justify-self: auto;
+}
+footer{
+    grid-column: 1/-1;
+    background-color: rgb(29, 125, 181);
+    color: white;
+    text-align: center;
+}
