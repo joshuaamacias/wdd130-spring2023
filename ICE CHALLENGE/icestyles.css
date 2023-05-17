@@ -1,0 +1,22 @@
+div {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+body {
+    display: block;
+    margin: 8px;
+}
+.back{
+    width: 100%;
+    grid-column: 1/4;
+}
+.circle {
+    border-radius: 500px;
+    border: 10px rgb(43, 41, 41) solid;
+    margin: 30px auto;
+    width: 50%;
+}
+main {
+    margin: 0 50px;
+    background-color: #444444;
+}
