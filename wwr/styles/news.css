@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto:ital,wght@0,400;1,300&display=swap');
+
+:root {
+  
+  --primary-color: #2F6690   ;
+  --secondary-color: #81C3D7 ;
+  --accent1-color: #FFEAEE;
+  --accent2-color: #DAEFB3;
+
+  
+  --heading-font: "Montserrat&family";
+  --paragraph-font: Roboto, HelveticaROV, sans-serif;
+
+  
+  --headline-color-on-white: #2F6690;  
+  --headline-color-on-color: white; 
+  --paragraph-color-on-white: #396E94; 
+  --paragraph-color-on-color: white; 
+  --paragraph-background-color: #396E94  ;
+  --nav-link-color: #396E94;
+  --nav-background-color: #D4AC0D;
+  --nav-hover-link-color: white;
+  --nav-hover-background-color: #396E94;
+}
+ h3, h4, h5, h6 {
+    font-family: var(--heading-font);
+    color: var(--headline-color-on-white);
+  }
+  header {
+    padding: 1em;
+    text-align: center;
+    color: var(--headline-color-on-color);
+    background-color: var(--paragraph-background-color);
+    display: grid;
+    grid-template-columns: 1fr 5fr;
+    
+  
+}
+  header > h1, header > h2 {
+    color: var(--headline-color-on-color);
+  }
+  .logo{
+      width: 100%;
+      padding-top: 10%;
+  }
+      
+#logo-link{
+    padding-top: 5px;
+    justify-self: center;
+    align-self: center;
+}
+footer{
+    background-color: #2F6690;
+    color: #343C78;
+    padding: 25px 50px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
+    text-align: left
+    
+}
+footer a {
+    color: #ffffff;
+    text-decoration: none;
+}
+footer a:hover{
+    color: #343C78;
+text-decoration: underline;
+
+}
+footer p{
+    font-size: 1.7em;
+}
+.plane-img:hover {
+    opacity: .6;
+    transform: scale(1.1);
+}
+nav a:hover{
+    background-color: #ffffff;
+    color: #343C78;      
+}
+main{
+}
+.plane-img{
+    width: 300px;
+    box-sizing: border-box;
+    transition: transform .5s;
+    box-shadow: 5px 5px 10px #6f7364;   
+}
+.a380{
+    padding-top: 10px;
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+}
+p{
+    font-size: 1.3em;
+}
+h2{
+    text-align: center;
+}
+
+.b747{
+    padding-top: 10px;
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+}
+.a350{
+    padding-top: 10px;
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+}
+.b787{
+    padding-top: 10px;
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+}
+.blackbird{
+    padding-top: 10px;
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+}
+
