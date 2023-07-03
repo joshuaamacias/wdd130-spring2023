@@ -8,7 +8,7 @@
   --accent2-color: #DAEFB3;
 
   
-  --heading-font: "Montserrat&family";
+  --heading-font: "Montserrat";
   --paragraph-font: Roboto, HelveticaROV, sans-serif;
 
   
@@ -147,3 +147,4 @@ main{
         background-color: #ffffff;
         color: #343C78;      
     }
+    
