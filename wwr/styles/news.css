@@ -22,9 +22,15 @@
   --nav-hover-link-color: white;
   --nav-hover-background-color: #396E94;
 }
- h3, h4, h5, h6 {
+body{
+    background-color: var(--accent1-color);
+}
+section .content h2{
+    color: #2F6690;
+}
+ h1, h2, h3, h4, h5, h6 {
     font-family: var(--heading-font);
-    color: var(--headline-color-on-white);
+    color: var(--headline-color-on-color);
   }
   header {
     padding: 1em;
@@ -79,13 +85,13 @@ nav a:hover{
     background-color: #ffffff;
     color: #343C78;      
 }
-main{
-}
+
 .plane-img{
     width: 300px;
     box-sizing: border-box;
     transition: transform .5s;
     box-shadow: 5px 5px 10px #6f7364;   
+    
 }
 .a380{
     padding-top: 10px;
@@ -94,6 +100,7 @@ main{
 }
 p{
     font-size: 1.3em;
+    font-family: var(--paragraph-font);
 }
 h2{
     text-align: center;

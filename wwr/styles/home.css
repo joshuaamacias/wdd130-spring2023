@@ -22,9 +22,9 @@
   --nav-hover-link-color: white;
   --nav-hover-background-color: #396E94;
 }
- h3, h4, h5, h6 {
+ h1, h2, h3, h4, h5, h6 {
     font-family: var(--heading-font);
-    color: var(--headline-color-on-white);
+    color: var(--headline-color-on-color);
   }
   header {
     padding: 1em;
@@ -37,9 +37,21 @@
     
   
 }
+.container h1 {
+    color: var(--headline-color-on-white);
+}
   header > h1, header > h2 {
     color: var(--headline-color-on-color);
   }
+  .container h3{
+    color: var(--headline-color-on-white);
+  }
+  p{
+    font-family: var(--heading-font);
+  }
+  body{
+    background-color: var(--accent1-color);
+}
   .logo{
       width: 60%;
       padding-top: 10%;
